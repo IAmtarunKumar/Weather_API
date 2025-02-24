@@ -7,7 +7,7 @@ import { TbTemperatureCelsius, TbGauge } from "react-icons/tb";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const DashboardUI = () => {
+const Dashboard = () => {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -247,4 +247,4 @@ const DashboardUI = () => {
   );
 };
 
-export default DashboardUI;
+export default Dashboard;
