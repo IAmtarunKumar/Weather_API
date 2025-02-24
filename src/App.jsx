@@ -1,9 +1,8 @@
 import React from 'react'
 import "./App.css"
-import Dashboard from './Components/Pages/Dashboard'
+
+import DashboardUI from './Components/Pages/DashboardUI'
+
 export default function App() {
-  return <> 
-  
-  <Dashboard />
-   </>
+  return <> <DashboardUI /> </>
 }
